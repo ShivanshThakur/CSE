@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Aug 20 19:28:54 2019
+Created on Sat Sep 21 09:58:28 2019
 
-@author: sitesh
+@author: test
 """
 
-s=input("Enter string :")
-c=input("Enter character :")
 count=0
-for i in range(len(s)):
-    if(c==s[i]):
+s=input('Enter string :')
+c=input('Enter character :')
+for i in s:
+    if(c==i):
         count+=1
-print("Found", count, "time(s)")
+print('Found character', count, 'time(s)')
+        
